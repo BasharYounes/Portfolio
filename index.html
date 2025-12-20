@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bashar Younes | Back-End Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <div class="logo">Bashar Younes</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- Header/Home Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="animate-text">Hi, I'm <span class="highlight">Bashar Younes</span></h1>
+                <h2 class="animate-text-delay">Back-End Developer <span class="typing">Laravel Specialist</span></h2>
+                <p class="animate-text-delay-2">Building efficient, scalable web solutions with 2+ years of Laravel experience.</p>
+                <div class="contact-info animate-text-delay-3">
+                    <p><i class="fas fa-map-marker-alt"></i> Damascus countryside, Syria</p>
+                    <p><i class="fas fa-phone"></i> +663 956 274 833</p>
+                    <p><i class="fas fa-envelope"></i> basharyounes.dev001@gmail.com</p>
+                </div>
+                <div class="hero-buttons animate-text-delay-4">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn-outline">Contact Me</a>
+                </div>
+                <div class="social-links animate-text-delay-4">
+                    <a href="https://github.com/BasharYounes" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="www.linkedin.com/in/basharyounes-laravel" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:basharyounes.dev001@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="https://via.placeholder.com/350x350/3b82f6/ffffff?text=Bashar+Younes" alt="Bashar Younes" id="profile-img">
+                    <div class="image-border"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Career Objective</h3>
+                <p>Motivated and detail-oriented Back End Developer seeking a challenging role in a dynamic company. Eager to contribute robust Laravel development expertise and strong problem-solving skills to build efficient, scalable web solutions, while continuously learning and growing within a collaborative team environment.</p>
+
+                <h3>Summary</h3>
+                <p>Back End Developer with 2+ years of experience building real-world Laravel applications. Designed and deployed academic and training systems with optimised performance, clean architecture, and API integration. Strong team player with a passion for problem-solving and continuous improvement.</p>
+
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <h4>2+ Years Experience</h4>
+                            <p>Building Laravel applications</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Informatics Engineering</h4>
+                            <p>University of Damascus</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <div>
+                            <h4>Real-World Projects</h4>
+                            <p>Academic & commercial systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Filter projects by technology</p>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="laravel">Laravel</button>
+            <button class="filter-btn" data-filter="api">APIs</button>
+            <button class="filter-btn" data-filter="database">Database</button>
+            <button class="filter-btn" data-filter="authentication">Authentication</button>
+            <button class="filter-btn" data-filter="caching">Caching</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-tech="laravel,api,authentication,caching">
+                <div class="project-icon">
+                    <i class="fas fa-podcast"></i>
+                </div>
+                <h3>User-based Podcast Platform</h3>
+                <p>Developed during internship training using Laravel, applying advanced concepts: Repository Pattern, Form Requests, Traits, Policies, and centralized exception handling.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">Repository Pattern</span>
+                    <span class="tech-tag">Caching</span>
+                    <span class="tech-tag">API Resources</span>
+                    <span class="tech-tag">Policies</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/BasharYounes/training-project" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-tech="laravel,api,database">
+                <div class="project-icon">
+                    <i class="fas fa-hotel"></i>
+                </div>
+                <h3>Tourism Management System</h3>
+                <p>Laravel-based project for hotel/barz booking, using Google APIs, Queue notifications, and MultiAuth. Developed over 3 months.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">Google APIs</span>
+                    <span class="tech-tag">Queues</span>
+                    <span class="tech-tag">MultiAuth</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/BasharYounes/Tourism-System" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-tech="laravel,database">
+                <div class="project-icon">
+                    <i class="fas fa-pills"></i>
+                </div>
+                <h3>Pharmacy Management System</h3>
+                <p>Developed a CRUD system using Laravel and MySQL for efficient management of medicines, sales transactions, and pharmaceutical categories within 2 months.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">CRUD</span>
+                    <span class="tech-tag">Eloquent ORM</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/BasharYounes/Pharmacy-System" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card" data-tech="laravel,api,authentication,database,caching">
+                <div class="project-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>E-commerce Trading Platform</h3>
+                <p>Built a smart recommendation system analyzing user behavior and implemented real-time notifications using FCM, two-factor authentication, and comprehensive CMS.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">FCM</span>
+                    <span class="tech-tag">Two-Factor Auth</span>
+                    <span class="tech-tag">CMS</span>
+                    <span class="tech-tag">Recommendation System</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/BasharYounes/E-commerce" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Languages & Frameworks</h3>
+                <div class="skill-items">
+                    <span class="skill-item">PHP</span>
+                    <span class="skill-item">Laravel</span>
+                    <span class="skill-item">REST APIs</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Database</h3>
+                <div class="skill-items">
+                    <span class="skill-item">MySQL</span>
+                    <span class="skill-item">Database Optimization</span>
+                    <span class="skill-item">Migrations & Seeding</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Git</span>
+                    <span class="skill-item">GitHub</span>
+                    <span class="skill-item">Postman</span>
+                    <span class="skill-item">VS Code</span>
+                    <span class="skill-item">Firebase Cloud Messaging</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-cogs"></i> Practices & Architecture</h3>
+                <div class="skill-items">
+                    <span class="skill-item">MVC Architecture</span>
+                    <span class="skill-item">Eloquent ORM</span>
+                    <span class="skill-item">Repository Pattern</span>
+                    <span class="skill-item">Service Pattern</span>
+                    <span class="skill-item">Event-Driven Architecture</span>
+                    <span class="skill-item">Queue Management</span>
+                    <span class="skill-item">Caching</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-shield-alt"></i> Authentication & Security</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Laravel Sanctum</span>
+                    <span class="skill-item">Two-Factor Authentication</span>
+                    <span class="skill-item">MultiAuth</span>
+                    <span class="skill-item">Middleware</span>
+                    <span class="skill-item">Authorization</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Problem Solving</span>
+                    <span class="skill-item">Team Collaboration</span>
+                    <span class="skill-item">Time Management</span>
+                    <span class="skill-item">Communication</span>
+                    <span class="skill-item">Adaptability</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience & Education -->
+<section id="experience" class="experience">
+    <div class="container">
+        <h2 class="section-title">Experience & Education</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">April 2025 – June 2025</div>
+                <div class="timeline-content">
+                    <h3>Back End Developer (Internship)</h3>
+                    <h4>Mod Solution, Damascus</h4>
+                    <p>Developed a user-based podcast platform during training using Laravel, applying advanced concepts: Repository Pattern, Form Requests, Traits, Policies, and centralized exception handling. Implemented caching strategies, access control, and API resources.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2021 – 2025</div>
+                <div class="timeline-content">
+                    <h3>University of Damascus</h3>
+                    <h4>Faculty of Informatics Engineering</h4>
+                    <p><strong>Major:</strong> Informatics Engineering<br>
+                        <strong>Specialization:</strong> Software Engineering</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="certifications">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Training Certificate – Back-End Development (Laravel)</h3>
+                <p><strong>Issued by:</strong> Mod Solution, Damascus</p>
+                <p><strong>Date:</strong> May 2025 to June 2025</p>
+                <p class="cert-note">(Certificate available upon request)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>I'm open to discussing new opportunities, collaborations, or just chatting about technology.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Damascus countryside, Syria</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+663 956 274 833</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>basharyounes.dev001@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-social">
+                    <a href="https://github.com/BasharYounes" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/basharyounes-laravel" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:basharyounes.dev001@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form id="messageForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2025 Bashar Younes. All rights reserved.</p>
+        <p>Back-End Developer | Laravel Specialist</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
